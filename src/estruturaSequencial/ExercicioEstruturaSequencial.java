@@ -18,8 +18,8 @@ public class ExercicioEstruturaSequencial {
 		double measure = 53.234567;
 		
 		System.out.println("Products: ");
-		System.out.printf("Computer, which price is R$ %.2f%n", price1);
-		System.out.printf("Office Desk, which price is R$ %.2f%n%n", price2);
+		System.out.printf("%s, which price is R$ %.2f%n", product1, price1);
+		System.out.printf("%s, which price is R$ %.2f%n%n", product2, price2);
 		
 		System.out.printf("Record: %d years old, code %d and gender: %s%n%n", age, code, gender);
 		
