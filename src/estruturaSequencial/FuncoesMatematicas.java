@@ -8,6 +8,7 @@ public class FuncoesMatematicas {
 		double z = -5.0;
 		double A, B, C;
 		
+		//RAiZ QUADRADA
 		A = Math.sqrt(x);
 		B = Math.sqrt(y);
 		C = Math.sqrt(25.0);
@@ -17,6 +18,7 @@ public class FuncoesMatematicas {
 		
 		System.out.println();
 		
+		//POTENCIAÇÃO
 		A = Math.pow(x, y);
 		B = Math.pow(x, 2.0);
 		C = Math.pow(5.0, 2.0);
@@ -26,6 +28,7 @@ public class FuncoesMatematicas {
 		
 		System.out.println();
 		
+		//VALOR ABSOLUTO
 		A = Math.abs(y);
 		B = Math.abs(z);
 		System.out.println("O valor absoluto de " + y + " é igual a " + A);
