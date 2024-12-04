@@ -1,4 +1,4 @@
-package estruturaCondicional;
+package exercicioEstruturaCondicional;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class ParImpar {
 		
 		int numero;
 		
-		System.out.println("Digite um número inteiro: " );
+		System.out.print("Digite um número inteiro: " );
 		numero = entrada.nextInt();
 		
 		if (numero % 2 == 0) {
